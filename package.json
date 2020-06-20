@@ -2,7 +2,7 @@
   "name": "factorio_calculator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://victorkoenders.github.io/factorio-calculator",
+  "homepage": "http://victorkoenders.github.io/factorio_calculator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.2.1",

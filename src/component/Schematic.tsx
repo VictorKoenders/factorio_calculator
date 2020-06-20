@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
-import { FaRegArrowAltCircleLeft, FaPencilAlt, FaPlus } from 'react-icons/fa';
+import { FaRegArrowAltCircleLeft, FaPencilAlt, FaPlus, FaArrowUp } from 'react-icons/fa';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { storage } from '../storage';
@@ -82,7 +82,7 @@ export default class Schematic extends React.Component<Props, State> {
                         <input type="text" value={this.state.schematic.goal.amount} size={3} onChange={e => this.setGoalAmount(e.target.value)} />
                         {' '}
                         <select value={this.state.schematic.goal.item} onChange={e => this.setGoalItem(e.target.value)}>
-                            {storage.allItems().map(item => <option>{item}</option>)}
+                            {storage.allItems().map(item => <option key={item}>{item}</option>)}
                         </select>
                         {
                             schematic.recipes.map((recipe, index) => <Recipe
@@ -104,6 +104,7 @@ export default class Schematic extends React.Component<Props, State> {
                             </Col>
                             <Button variant="outline-primary" onClick={() => this.newRecipe()}><FaPlus /></Button>
                         </Row>
+                        {this.renderAddRecipeSuggestion()}
                         {this.renderRecipeList("Suggested", suggested_recipes)}
                         {this.renderRecipeList("Other", other_recipes)}
                     </Col>
@@ -126,6 +127,14 @@ export default class Schematic extends React.Component<Props, State> {
             </Container>
             <RecipeEditor recipe={this.state.editRecipe} onSave={r => this.saveRecipe(r)} onCancel={() => this.resetEditRecipe()} />
         </>
+    }
+
+    renderAddRecipeSuggestion() {
+        if (storage.recipes.length > 0) return null;
+        return <Row className="alert alert-warning justify-content-between">
+            Try adding a recipe
+            <FaArrowUp style={{ marginRight: '-0.5em' }} />
+        </Row>;
     }
 
     renderRecipeList(title: string, recipes: RecipeData[]) {
