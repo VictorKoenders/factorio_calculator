@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.recipe-block {
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 5px;
+}
+
+.recipe-block table {
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 1em;
+}
+
+.card table {
+  margin-bottom: 0;
+}
