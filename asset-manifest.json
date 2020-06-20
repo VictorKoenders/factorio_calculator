@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/factorio-calculator/static/css/main.74d0cd17.chunk.css",
+    "main.js": "/factorio-calculator/static/js/main.32a633f4.chunk.js",
+    "main.js.map": "/factorio-calculator/static/js/main.32a633f4.chunk.js.map",
+    "runtime-main.js": "/factorio-calculator/static/js/runtime-main.595d7c91.js",
+    "runtime-main.js.map": "/factorio-calculator/static/js/runtime-main.595d7c91.js.map",
+    "static/js/2.cf66447f.chunk.js": "/factorio-calculator/static/js/2.cf66447f.chunk.js",
+    "static/js/2.cf66447f.chunk.js.map": "/factorio-calculator/static/js/2.cf66447f.chunk.js.map",
+    "index.html": "/factorio-calculator/index.html",
+    "precache-manifest.488ae9ed01e85f55b057c59b9f76e3dd.js": "/factorio-calculator/precache-manifest.488ae9ed01e85f55b057c59b9f76e3dd.js",
+    "service-worker.js": "/factorio-calculator/service-worker.js",
+    "static/css/main.74d0cd17.chunk.css.map": "/factorio-calculator/static/css/main.74d0cd17.chunk.css.map",
+    "static/js/2.cf66447f.chunk.js.LICENSE.txt": "/factorio-calculator/static/js/2.cf66447f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.595d7c91.js",
+    "static/js/2.cf66447f.chunk.js",
+    "static/css/main.74d0cd17.chunk.css",
+    "static/js/main.32a633f4.chunk.js"
+  ]
+}
