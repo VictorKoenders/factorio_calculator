@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/factorio_calculator/precache-manifest.add1082be0d3cf1a186d36f512cc66f8.js"
+  "/factorio_calculator/precache-manifest.03c3f3917404e726c9f3d4531fc998ea.js"
 );
 
 self.addEventListener('message', (event) => {

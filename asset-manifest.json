@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/factorio_calculator/static/css/main.74d0cd17.chunk.css",
-    "main.js": "/factorio_calculator/static/js/main.268336ba.chunk.js",
-    "main.js.map": "/factorio_calculator/static/js/main.268336ba.chunk.js.map",
+    "main.js": "/factorio_calculator/static/js/main.30848667.chunk.js",
+    "main.js.map": "/factorio_calculator/static/js/main.30848667.chunk.js.map",
     "runtime-main.js": "/factorio_calculator/static/js/runtime-main.ea893ffb.js",
     "runtime-main.js.map": "/factorio_calculator/static/js/runtime-main.ea893ffb.js.map",
-    "static/js/2.5c212565.chunk.js": "/factorio_calculator/static/js/2.5c212565.chunk.js",
-    "static/js/2.5c212565.chunk.js.map": "/factorio_calculator/static/js/2.5c212565.chunk.js.map",
+    "static/js/2.9bf66613.chunk.js": "/factorio_calculator/static/js/2.9bf66613.chunk.js",
+    "static/js/2.9bf66613.chunk.js.map": "/factorio_calculator/static/js/2.9bf66613.chunk.js.map",
     "index.html": "/factorio_calculator/index.html",
-    "precache-manifest.add1082be0d3cf1a186d36f512cc66f8.js": "/factorio_calculator/precache-manifest.add1082be0d3cf1a186d36f512cc66f8.js",
+    "precache-manifest.03c3f3917404e726c9f3d4531fc998ea.js": "/factorio_calculator/precache-manifest.03c3f3917404e726c9f3d4531fc998ea.js",
     "service-worker.js": "/factorio_calculator/service-worker.js",
     "static/css/main.74d0cd17.chunk.css.map": "/factorio_calculator/static/css/main.74d0cd17.chunk.css.map",
-    "static/js/2.5c212565.chunk.js.LICENSE.txt": "/factorio_calculator/static/js/2.5c212565.chunk.js.LICENSE.txt"
+    "static/js/2.9bf66613.chunk.js.LICENSE.txt": "/factorio_calculator/static/js/2.9bf66613.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ea893ffb.js",
-    "static/js/2.5c212565.chunk.js",
+    "static/js/2.9bf66613.chunk.js",
     "static/css/main.74d0cd17.chunk.css",
-    "static/js/main.268336ba.chunk.js"
+    "static/js/main.30848667.chunk.js"
   ]
 }
